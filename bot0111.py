@@ -13,7 +13,7 @@ os.environ["GEMINI_API_KEY"] = "AQ.Ab8RN6J1s-vp0810-EdV_Vf7h4PWvXcrTY5nKoNI2Y3ck
 
 # Avvalgi 'my_personal_session' o'rniga token ishlatamiz
 bot_token = '8790987328:AAGlLFmkQW53hBOL8N9rNiFCSFFHGxP9qC4'
-client = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
+ient = TelegramClient('bot', api_id, api_hash).start(bot_token='8790987328:AAGlLFmkQW53hBOL8N9rNiFCSFFHGxP9qC4')
 ai_client = genai.Client()
 
 # AI xarakteri (Muhammad Ali)
